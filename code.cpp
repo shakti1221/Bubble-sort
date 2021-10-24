@@ -9,6 +9,10 @@ void swap(int *xp, int *yp)
 	*yp = temp;
 }
 //Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+//complexcity: Worst complexity: n^2 //
+//Average complexity: n^2//
+//Best complexity: n//
+//Space complexity: 1 //
 // A function to implement bubble sort
 void bubbleSort(int arr[], int n)
 {
