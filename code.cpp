@@ -15,7 +15,7 @@ void swap(int *x, int *y)
 //Space complexity: 1 //
 // A function to implement in bubble sort
 // bubble sort algorithm is very easy as compared to all sorting algorithms.
-// The “bubble” sort is called so because the list elements with greater value than their surrounding elements “bubble” towards the end of the list. 
+// The “bubble” sort is called so because the list elements with greater value than their surrounding an elements “bubble” towards the end of the list. 
 void bubbleSort(int arr[], int n)
 {
 	int i, j;
