@@ -14,6 +14,7 @@ void swap(int *xp, int *yp)
 //Best complexity: n//
 //Space complexity: 1 //
 // A function to implement bubble sort
+// bubble sort algorithm is very easy as compared to all sorting algorithms.
 void bubbleSort(int arr[], int n)
 {
 	int i, j;
