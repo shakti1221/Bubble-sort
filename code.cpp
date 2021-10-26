@@ -2,11 +2,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap(int *xp, int *yp)
+void swap(int *x, int *y)
 {
-	int temp = *xp;
-	*xp = *yp;
-	*yp = temp;
+	int temp = *x;
+	*x = *y;
+	*y = temp;
 }
 //Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 //complexcity: Worst complexity: n^2 //
