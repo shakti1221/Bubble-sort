@@ -1,4 +1,6 @@
 // C++ program for implementation of Bubble sort
+//Shatakashi contribution
+//complexity equals to O(n^2)
 #include <bits/stdc++.h>
 using namespace std;
 
