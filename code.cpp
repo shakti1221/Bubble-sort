@@ -18,13 +18,24 @@ void swap(int *x, int *y)
 // The “bubble” sort is called so because the list elements with greater value than their surrounding an elements “bubble” towards the end of the list. 
 void bubbleSort(int arr[], int n)
 {
-	int i, j;
+	int i, j,flag = 0;
 	for (i = 0; i < n-1; i++)	
-	
+	{
+		flag = 0;
 	// Last i elements are already in place
-	for (j = 0; j < n-i-1; j++)
-		if (arr[j] > arr[j+1])
-			swap(&arr[j], &arr[j+1]);
+		for (j = 0; j < n-i-1; j++)
+	     		{
+		 		if (arr[j] > arr[j+1])
+				{
+					swap(&arr[j], &arr[j+1]);
+					flag = 1;
+				}
+	     		} 
+		if(flag == 0)
+		{
+			break;
+		}
+	}
 }
 
 /* Function to print an array */

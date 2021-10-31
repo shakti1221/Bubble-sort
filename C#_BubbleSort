@@ -23,7 +23,11 @@ namespace SortingExample
                         number[j + 1] = temp;  
                         flag = true;  
                     }  
-                }  
+                }
+                if(!flag)
+                {
+                    break;              
+                }
             }  
   
             //Sorted array  

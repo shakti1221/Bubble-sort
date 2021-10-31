@@ -7,10 +7,14 @@ for i in range(number):
     a.append(value)
 
 for i in range(number -1):
+    flag = 0
     for j in range(number - i - 1):
         if(a[j] > a[j + 1]):
              temp = a[j]
              a[j] = a[j + 1]
              a[j + 1] = temp
+             flag = 1
+     if flag == 0:
+        break
 
 print("The Sorted List in Ascending Order : ", a)
